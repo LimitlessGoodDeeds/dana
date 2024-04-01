@@ -563,19 +563,6 @@ progress {
   padding-left: 0;
   list-style: none;
 }
-
-.list-inline {
-  padding-left: 0;
-  list-style: none;
-}
-
-.list-inline-item {
-  display: inline-block;
-}
-.list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
-}
-
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
@@ -10944,7 +10931,7 @@ p {
   }
 } */
 header.masthead {
-  padding-top: 10rem;
+  padding-top: 17rem;
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
@@ -10957,13 +10944,6 @@ header.masthead {
   background-size: contain;
   /* background-size: cover; */
 }
-header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  font-style: italic;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
 header.masthead .masthead-heading {
   font-size: 3.25rem;
   font-weight: 700;
@@ -10974,15 +10954,9 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 20rem;
+    padding-top: 26rem;
     padding-bottom: 12.5rem;
     background-size: cover;
-  }
-  header.masthead .masthead-subheading {
-    font-size: 2.25rem;
-    font-style: italic;
-    line-height: 2.25rem;
-    margin-bottom: 2rem;
   }
   header.masthead .masthead-heading {
     font-size: 4.5rem;
@@ -11062,9 +11036,6 @@ header.masthead .masthead-heading {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .portfolio-modal .modal-content p {
-  margin-bottom: 2rem;
-}
-.portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
 .portfolio-modal .modal-content img {
