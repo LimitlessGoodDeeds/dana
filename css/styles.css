@@ -13161,7 +13161,7 @@ h2.section-heading:nth-child(3) > p:nth-child(1) {
   margin-top: 0;
   margin-bottom: 1rem;
   box-sizing: border-box;
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   text-align: center !important;
